@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>FRONTEND</title>
+</head>
+<body>
+    
+    <div class="container bg-primary">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center display-4 text-light">FRONT-END</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="cantainer-flud mt-3">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-primary">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Peso</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Ubicacion</th>
+                        <th scope="col">idCliente</th>
+                      </tr>
+                    </thead>
+                    <tbody id="Tabla">
+                      
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <form action="javascript:void(0);">
+                    
+                    <div class="mb-3">
+                        <label for="peso" class="form-label">PESO:</label>
+                        <input type="text" class="form-control" id="peso" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="precio" class="form-label">PRECIO:</label>
+                        <input type="text" class="form-control" id="precio" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="ubicacion" class="form-label">UBICACION:</label>
+                        <input type="text" class="form-control" id="ubicacion" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="idCliente" class="form-label">IDCLIENTE:</label>
+                        <input type="text" class="form-control" id="id_Cliente" >
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="agregarPaquete()">Submit</button>
+                  </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
